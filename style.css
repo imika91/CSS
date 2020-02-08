@@ -1,0 +1,45 @@
+a{
+  text-decoration:none;
+  color:black;
+}
+h1{
+  text-align:center;
+  text-decoration:underline;
+  border-bottom:3px solid pink;
+  margin:0;
+  font-size:100px;
+  color:pink;
+}
+.saw{
+  color:pink;
+}
+#grid{
+  display:grid;
+  grid-template-columns:400px 1fr;
+}
+#grid #article{
+  display: block;
+}
+ol{
+  border-right:3px solid pink;
+  padding-left: 50px;
+  margin:0;
+  padding:30px;
+}
+@media(max-width:800px){
+  ol{
+    border-right:none;
+  }
+  h1{
+    border-bottom:none;
+  }
+  #grid{
+    display:block;
+  }
+}
+body{
+  margin:0;
+}
+.active{
+  color:pink;
+}
